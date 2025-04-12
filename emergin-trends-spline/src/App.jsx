@@ -1,20 +1,19 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Spline from '@splinetool/react-spline';
 import './index.css';
 import SplineScene from './components/SplineScene';
-import Buttons from './components/Buttons';
+import Header from './components/Header';
+import About from './components/About';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [hideAbout, setHideAbout] = useState(false);
 
   return (
     <>
       <div>
-          <SplineScene />
-          <Buttons />
+        <SplineScene setHideAbout={setHideAbout} />
+        <Header />
+        <About hideAbout={hideAbout} />
       </div>
     </>
   )
