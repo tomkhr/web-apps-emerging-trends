@@ -19,5 +19,13 @@ The only dependencies required to run this project are:
     - node modules  ( to install, run the command " npm install " )
     - spline        ( to install, run the command " npm install @splinetool/react-spline @splinetool/runtime " )
 
+# References
+
+* Spline Docs: [ https://docs.spline.design/doc/-getting-started/doc390iSGamE ]
+
+* W3Schools for references to CSS, JS, and React code:  [ https://www.w3schools.com ]
+
+* React.dev for React docs: [ https://react.dev ]
+
 
 Thank you!
